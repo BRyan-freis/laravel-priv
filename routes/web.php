@@ -10,6 +10,8 @@ Route::get('/', function () {
 Route::view('/cadastro', 'cadastro')->name('cadastro');
 });
 
+Route::view('/home', 'home')->name('home');
+
 Route::view('/cadastro', 'cadastro')->name('cadastro');
 
 // Rota GET: exibe o formulário de cadastro de cliente

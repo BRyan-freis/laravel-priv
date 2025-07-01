@@ -30,6 +30,6 @@ class UsuariosController extends Controller
             'senha'=>$request->senha,
         ]);
 
-         return redirect()->route('usuarios.create')->with('success', 'Usuário cadastrado com sucesso!');
+         return redirect()->route('home')->with('success', 'Cadastro realizado com sucesso!');
     }
 }
